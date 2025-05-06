@@ -19,3 +19,5 @@ print(f"Linear Regression Equation: y = {m:.2f}x + {c:.2f}")
 x_test = np.array([[6]])
 y_pred = model.predict(x_test)
 print(f"Prediction for x = 6: y = {y_pred[0]:.2f}")
+
+print("hello")
